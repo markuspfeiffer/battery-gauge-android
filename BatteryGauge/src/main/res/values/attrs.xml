@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="arcAngleMaximum" format="integer" />
+    <attr name="arcAngleOffset" format="integer" />
+    <attr name="arcAngle" format="integer" />
+    <attr name="arcColor" format="reference" />
+
+    <attr name="progress" format="integer" />
+
+    <attr name="animationStarted" format="boolean" />
+    <attr name="durationMillis" format="integer" />
+    <attr name="clockwise" format="boolean" />
+    <attr name="ringColor" format="reference" />
+    <attr name="ringWidth" format="dimension" />
+
+    <!-- Gauge -->
+    <declare-styleable name="Gauge">
+        <!-- Ring -->
+        <attr name="ringColor" />
+        <attr name="ringWidth" />
+
+        <!-- Arc -->
+        <attr name="arcAngleMaximum" />
+        <attr name="arcAngleOffset" />
+        <attr name="arcColor" />
+        <attr name="arcAngle" />
+        <attr name="progress" />
+
+        <!-- Animation -->
+        <attr name="animationStarted" />
+        <attr name="clockwise" />
+        <attr name="durationMillis" />
+    </declare-styleable>
+
+    <!-- ProgressRing -->
+    <declare-styleable name="ProgressRing">
+        <!-- Ring -->
+        <attr name="ringColor" />
+        <attr name="ringWidth" />
+
+        <!-- Arc -->
+        <attr name="arcAngleMaximum" />
+        <attr name="arcAngleOffset" />
+        <attr name="arcColor" />
+        <attr name="arcAngle" />
+        <attr name="progress" />
+
+        <!-- Animation -->
+        <attr name="animationStarted" />
+        <attr name="clockwise" />
+        <attr name="durationMillis" />
+    </declare-styleable>
+
+</resources>

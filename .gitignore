@@ -1,0 +1,15 @@
+*.iml
+*.swp
+.gradle
+/local.properties
+/secret.properties
+/.idea/*.xml*
+/.idea/dictionaries
+/.idea/libraries
+!/.idea/codeStyleSettings.xml
+.DS_Store
+/build
+/artifacts
+/captures
+/projectFilesBackup
+/scripts/bin
